@@ -1,0 +1,38 @@
+:root {
+    --color-white: #FFFFFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 35em;
+}
+
+.card-transition {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-transition:hover {
+    transform: scale(1.05);
+}
+
+.gradient-bg {
+    background: linear-gradient(to bottom, #888, #000);
+}
+
+#texto {
+    background-color: white; /* Garante que o fundo fique branco */
+    padding: 10px; /* Dá um espaçamento para melhorar a aparência */
+    border-radius: 5px; /* Suaviza as bordas */
+}
