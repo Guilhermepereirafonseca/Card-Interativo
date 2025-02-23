@@ -29,6 +29,7 @@ h1 {
 
 .gradient-bg {
     background: linear-gradient(to bottom, #888, #000);
+    background-repeat: no-repeat;
 }
 
 #texto {
